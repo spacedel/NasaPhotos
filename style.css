@@ -1,0 +1,30 @@
+.container{
+    padding: 2px 16px;   
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+    max-width: 100%;
+    height: auto;
+}
+  
+#loading {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://media4.giphy.com/media/hWZBZjMMuMl7sWe0x8/giphy.gif?cid=790b7611e8cbfd1ad81fbe4c8801881ebb80131dc07075f5&rid=giphy.gif&ct=g");
+    background-repeat: no-repeat;
+    background-position: center;
+}
